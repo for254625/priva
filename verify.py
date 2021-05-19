@@ -8,10 +8,9 @@ import asyncio
 import random
 from bs4 import BeautifulSoup
 from urllib.request import Request
-import parse
 import time
 import requests
-
+import parse
 
 client = discord.Client()
 
