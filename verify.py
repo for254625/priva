@@ -130,4 +130,5 @@ async def on_message(message):
         else:
             await message.channel.send('권한을 확인하곧 다시해봐요.')
             
-client.run('★TOKEN★')
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
