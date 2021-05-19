@@ -1,6 +1,5 @@
 import discord
 from bs4 import BeautifulSoup
-import requests
 import urllib
 import discord
 from discord.ext import commands
@@ -11,6 +10,7 @@ from bs4 import BeautifulSoup
 from urllib.request import Request
 import parse
 import time
+import requests
 
 
 client = discord.Client()
